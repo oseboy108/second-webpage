@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WAeUP.Kofa Student Management</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/jquery.js"></script>
+        <sript src="js/bootstrap.js"></sript>
+        <style>
+          
+          body{
+             background-color: rgba(155, 155, 155, 0.11);
+          }
+          
+          .container{
+            background-color: rgb(255, 255, 255);
+          }
+        </style>
+    </head>
+    <body>
+      
+      <div class="fluid-container">
+      <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top navbar-light bg-danger">
+        <a class="navbar-brand text-light" href="https://aaue.waeup.org">AAU Ekpoma</a>
+        <button class="navbar-toggler navbar-light type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-collapse collapse" id="kofa-primary-nav">
+            <ul class="nav navbar-nav kofa-navbar-right"></ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="https://aaue.waeup.org/applicants">Application<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="https://aaue.waeup.org/applicants/checkstatus">Check Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="https://aaue.waeup.org/enquiries">Enquiries</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://google.com">action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+      <br>
+      <div class="container">
+        <h1 class="display-13">Login</h1>
+        <form method="post" class="form-horizontal">
+          <br>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">User Name or Id</label>
+            <div class="col-sm-10">
+              <input name="form.login" type="text" class="form-control" id="login">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input name="form.password" type="password" class="form-control" id="password">
+              <font color="red"> Notice: User names, Ids and passwords are case sensitive.</font>
+            </div>
+          </div>
+          <input type="hidden" name="camefrom">
+          <input class="btn btn-primary" type="submit" name="SUBMIT" value="Login">
+
+
+          <br><br><br>
+  <p>Don't forget to logout or exit your browser when you're done.
+    If you are having trouble logging in, make sure to enable  cookies in your web browser.
+  </p>
+  
+  <p>
+    You don't have an account because you are a fresh student, or your student record has just been created?
+    Inititialize your student account <strong><a href="requestpw"> here</a></strong>.
+  </p>
+  <p> Or simply forgot your student id, applicant id or password? Then request a new password
+    <strong><a href="changepw"> here</a></strong>.
+  </p>
+  <p> You are student parents and want to monitor study progress
+    of your child? Then request a temporary parents password <strong><a href="requestppw"> here</a></strong>.
+    Prerequisite for getting access is that you have a valid email address and that this address
+    has been entered by the student into the parents' email address field.
+  </p>
+</form>
+</div>
+
+<p class="credit muted text-right">
+  Kofa - Student Management System<br>
+  Copyright © WAeUP Group
+  <script type="text/javascript">
+  renderCurrentYear();
+  </script>2020
+</p>
+         
+              
+             
+         
+           
+        </form>
+        
+    </body>
+</html>
+
+      
+
+     
+     
+
